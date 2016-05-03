@@ -1,21 +1,19 @@
 package com.example.questdot.sqliteexample;
 
-import android.content.Context;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
+
 
 /**
- * Created by HP on 1/5/2016.
+ * Created by QuestDot on 1/5/2016.
  */
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Hashtable;
+
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
-import android.database.sqlite.SQLiteOpenHelper;
-import android.database.sqlite.SQLiteDatabase;
+
 
 public class DBHelper extends SQLiteOpenHelper {
 
